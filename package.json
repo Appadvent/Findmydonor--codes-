@@ -1,0 +1,29 @@
+{
+    "name": "test",
+    "version": "2.0.2",
+    "description": "test",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+		"watch": "webpack --config webpack.config.js --watch",
+        "test": "echo \"Error: no test specified\" && exit 1",
+		"phpcbf": "cd $VAR && $PWD/.config/composer/vendor/squizlabs/php_codesniffer/bin/phpcbf --standard=$INIT_CWD/phpcs.xml --severity=1 --ignore-annotations --extensions=php,html $INIT_CWD/",
+		"phpcs": "mkdir -p phpcs-reports && cd $VAR && $PWD/.config/composer/vendor/squizlabs/php_codesniffer/bin/phpcs --standard=$INIT_CWD/phpcs.xml --severity=1 --ignore=*/wk_caching/* --report-source --report-xml=$INIT_CWD/phpcs-reports/phpcs-report-$(date \"+%Y-%m-%dT%H:%M:%S\").xml --ignore-annotations --extensions=php,html $INIT_CWD/"
+    },
+    "author": "test",
+    "license": "ISC",
+    "devDependencies": {
+		"@babel/core": "^7.26.7",
+		"@babel/preset-env": "^7.26.7",
+		"babel-loader": "^9.2.1",
+		"css-loader": "^7.1.2",
+		"css-minimizer-webpack-plugin": "^7.0.0",
+		"mini-css-extract-plugin": "^2.9.2",
+		"postcss": "^8.5.1",
+		"postcss-loader": "^8.1.1",
+		"style-loader": "^4.0.0",
+		"terser-webpack-plugin": "^5.3.11",
+		"webpack": "^5.97.1",
+		"webpack-cli": "^6.0.1"
+	}
+}
+

@@ -1,0 +1,562 @@
+a.button.butn-green {
+	background: #216821;
+	color: white;
+}
+
+a.button.butn-orange {
+	background: #ba6707;
+	color: white;
+}
+
+
+a.button.butn-danger {
+	color: white;
+	background: #eb0303d4;
+}
+
+.wkdo-check-box-flax {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.wkdo-b-containr {
+	margin-bottom: 20px;
+}
+
+.wkdo-form-section {
+	margin-bottom: 20px;
+}
+
+.wkdo-custom-upload {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+/* Becom sdonor admin  css */
+
+/* General Form Container */
+.wkdo-form-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #fff;
+	border-radius: 10px;
+	border-color: #D6D9DD;
+}
+
+/* Form Styling */
+.wkdo-form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+/* Form Sections */
+.wkdo-form-section {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+/* Section Titles */
+.wkdo-section-title {
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+/* Labels */
+.wkdo-label {
+	font-size: 14px;
+	font-weight: 500;
+	color: #555;
+}
+
+/* Input Fields */
+.wkdo-input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	transition: border-color 0.3s ease;
+}
+
+.wkdo-input:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+/* Select Fields */
+.wkdo-select {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	transition: border-color 0.3s ease;
+}
+
+.wkdo-select:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+/* Textarea Fields */
+.wkdo-textarea {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	resize: vertical;
+	min-height: 100px;
+	transition: border-color 0.3s ease;
+	width: 100%;
+}
+
+.wkdo-textarea:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+/* Checkbox and Radio Groups */
+.wkdo-checkbox-group,
+.wkdo-radio-group {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.wkdo-checkbox-group label,
+.wkdo-radio-group label {
+	font-size: 14px;
+	color: #555;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.wkdo-checkbox-group input[type="checkbox"],
+.wkdo-radio-group input[type="radio"] {
+	margin: 0;
+}
+
+/* Submit Button */
+.wkdo-submit-button {
+	padding: 12px 20px;
+	background-color: #003366;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.wkdo-submit-button:hover {
+	background-color: #003366;
+}
+
+
+.wkdo_radio_flex {
+	display: flex;
+	gap: 13px;
+	flex-direction: row;
+	align-items: self-end;
+}
+
+
+
+.wkdo-b-row {
+	display: flex;
+	gap: 10px;
+}
+
+.wkdo-50-width {
+	width: 50%;
+}
+
+
+.wkdo-dono-status-row {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.wkdo-top-50 {
+	padding-top: 50px;
+}
+
+.wkdo-physical-background.wkdo-top-50 {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.wkdo-div {
+	width: 40%;
+}
+
+.wkdo-input-width {
+	width: 100%;
+}
+
+img.wkdo-p-img {
+	border-radius: 52%;
+	height: 70px;
+	width: 70px;
+}
+
+.wkdv-col {
+	width: 50%;
+	position: relative;
+}
+
+.wkdv-containr {
+	max-width: 100%;
+}
+
+.wkdv-profile-row {
+	display: flex;
+	gap: 20px;
+	margin-top: 10px;
+}
+
+/* Medical Documents Section Styles */
+.wkdv-profile-row.medical-documents {
+	margin-top: 25px;
+	border-top: 2px dashed #ccc;
+	padding-top: 25px;
+}
+
+.wkdv-title.medical-docs-title {
+	background: #007bff;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 4px;
+	font-weight: bold;
+	top: -15px;
+}
+
+.wkdv-content.docs-content {
+	margin-top: 10px;
+}
+
+.doc-view-button {
+	display: inline-block;
+	background-color: #216821;
+	color: white;
+	padding: 8px 15px;
+	text-decoration: none;
+	border-radius: 4px;
+	font-weight: 500;
+	transition: background-color 0.3s;
+}
+
+.doc-view-button:hover {
+	background-color: #184d18;
+	color: white;
+}
+
+.doc-not-found {
+	color: #999;
+	font-style: italic;
+}
+
+.wkdv-col.wkdv-col-1 {
+	border: 1px dashed black;
+	padding: 14px;
+}
+
+.wkdv-title {
+	position: absolute !important;
+	top: -10px;
+	background: #f0f0f1;
+	color: black;
+	font-size: 15px;
+}
+
+table.wkdv-profile-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.wkdv-profile-table th {
+	text-align: left;
+	padding: 8px;
+}
+
+table.wkdv-profile-table th,
+td {
+	padding: 8px;
+}
+
+.wkdv-col.wkdv-col-1.wkdv-col-2 {
+	width: 100%;
+	margin-top: 10px;
+}
+
+img.wkdv-profile-header-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.wkdv-profile-header {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#image_preview img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+
+p#footer-left {
+	position: absolute;
+	bottom: -1100px;
+}
+
+/** Becom donor admn css **/
+
+.wkdo-flex {
+	display: flex;
+	gap: 10px;
+	padding: 15px 16px 15px 10px;
+	align-items: baseline;
+	border: 1px dashed black;
+	margin-top: 10px;
+}
+
+span#footer-thankyou {
+	display: none;
+}
+
+input.wkdo_mail_to {
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+.wkm-mail-contair {
+	margin-top: 16px;
+	padding: 20px;
+}
+
+
+.wkm-admin-mail-box {
+	background: #1678a717;
+	padding: 10px;
+}
+
+
+.wkm-recipient-mail-box {
+	background: #cdbba01f;
+	padding: 10px;
+}
+
+div#wkdo_recipent_converstion {
+	margin-top: 32px;
+}
+
+.wkdo-send-by-recipent {
+	font-size: 17px;
+	font-weight: 700;
+	color: #00a1fff0;
+}
+
+.wkdo_recipent_converstion {
+	height: 300px !important;
+	overflow-y: auto;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+
+.wkdo-send-by-re-admin div {
+	padding-bottom: 10px;
+}
+
+.wkdo-send-by-re-admin p {
+	padding-bottom: 10px;
+}
+
+
+.wkdo-send-by-admin {
+	font-size: 17px;
+	font-weight: 700;
+	color: green;
+}
+
+
+.wkdo-chat-container {
+	width: 350px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.wkdo-chat-header {
+	background: #007bff;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.wkdo-chat-body {
+	flex: 1;
+	padding: 10px;
+	overflow-y: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.wkdo-message {
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	max-width: 70%;
+}
+
+.wkdo-sent {
+	align-self: flex-end;
+	background: #007bff;
+	color: white;
+}
+
+.wkdo-received {
+	align-self: flex-start;
+	background: #e0e0e0;
+}
+
+.wkdo-chat-footer {
+	display: flex;
+	padding: 10px;
+	background: #f1f1f1;
+	border-top: 1px solid #ccc;
+}
+
+.wkdo-chat-footer input {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+}
+
+.wkdo-chat-footer button {
+	padding: 10px 15px;
+	margin-left: 5px;
+	border: none;
+	background: #007bff;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+span.username {
+	display: inline;
+	position: absolute;
+	color: green;
+	top: 0px;
+	left: 4px;
+	font-weight: 500px;
+}
+
+.wkdo-message.wkdo-received {
+	position: relative;
+}
+
+
+.wkdo-message.wkdo-sent {
+	position: relative;
+}
+
+.wkdo-message {
+	padding: 19px;
+	border-radius: 10px;
+	margin-bottom: 23px;
+	width: 100%
+		/* width: 34%; */
+		/* margin-top: 10px; */
+}
+
+
+.wkdo-message.wkdo-sent .username {
+	color: #b65407;
+	font-weight: bolder;
+}
+
+
+
+.wkdo-profile-image-preview img {
+	border-radius: 5%;
+	width: 169px;
+	border: 2px dashed #555;
+}
+
+i#upload-btn {
+	position: absolute;
+	top: 3px;
+	left: 143px;
+	color: black;
+	font-size: 25px;
+}
+
+.wkdo-milti-upload-file {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	position: relative;
+	border: 2px dashed black;
+	margin-bottom: 11px;
+	border-radius: 1%;
+	min-height: 100px;
+	cursor: pointer;
+}
+
+i#upload_images_button {
+	position: absolute;
+	right: -3px;
+	top: -2px;
+	font-size: 25px;
+}
+
+#image_preview label {
+	text-align: center;
+	width: 100%;
+	margin-top: 36px;
+}
+
+.wkdo-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div#field_1_6 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input.Distinctive.Features {
+    width: 79%;
+}

@@ -1,0 +1,3 @@
+phpcs --standard=wordpress --report=checkstyle --report-file=C:\xampp\htdocs\do\wp-content\plugins\woocommerce-donor\phpcs-errors.xml C:\xampp\htdocs\donor\wp-content\plugins\woocommerce-donor
+
+phpcbf --standard=wordpress C:\xampp\htdocs\do\wp-content\plugins\woocommerce-donor
